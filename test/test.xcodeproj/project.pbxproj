@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67EFFF4A262954CA0067BCD3 /* icarusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFF49262954CA0067BCD3 /* icarusApp.swift */; };
-		67EFFF4C262954CA0067BCD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFF4B262954CA0067BCD3 /* ContentView.swift */; };
-		67EFFF4E262954CC0067BCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EFFF4D262954CC0067BCD3 /* Assets.xcassets */; };
-		67EFFF51262954CC0067BCD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EFFF50262954CC0067BCD3 /* Preview Assets.xcassets */; };
-		67EFFF5C262954CD0067BCD3 /* icarusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFF5B262954CD0067BCD3 /* icarusTests.swift */; };
-		67EFFF67262954CD0067BCD3 /* icarusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFF66262954CD0067BCD3 /* icarusUITests.swift */; };
+		67EFFF84262959C40067BCD3 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFF83262959C40067BCD3 /* testApp.swift */; };
+		67EFFF86262959C40067BCD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFF85262959C40067BCD3 /* ContentView.swift */; };
+		67EFFF88262959C60067BCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EFFF87262959C60067BCD3 /* Assets.xcassets */; };
+		67EFFF8B262959C60067BCD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EFFF8A262959C60067BCD3 /* Preview Assets.xcassets */; };
+		67EFFF96262959C70067BCD3 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFF95262959C70067BCD3 /* testTests.swift */; };
+		67EFFFA1262959C70067BCD3 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EFFFA0262959C70067BCD3 /* testUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		67EFFF58262954CD0067BCD3 /* PBXContainerItemProxy */ = {
+		67EFFF92262959C70067BCD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67EFFF3E262954CA0067BCD3 /* Project object */;
+			containerPortal = 67EFFF78262959C40067BCD3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67EFFF45262954CA0067BCD3;
-			remoteInfo = icarus;
+			remoteGlobalIDString = 67EFFF7F262959C40067BCD3;
+			remoteInfo = test;
 		};
-		67EFFF63262954CD0067BCD3 /* PBXContainerItemProxy */ = {
+		67EFFF9D262959C70067BCD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67EFFF3E262954CA0067BCD3 /* Project object */;
+			containerPortal = 67EFFF78262959C40067BCD3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67EFFF45262954CA0067BCD3;
-			remoteInfo = icarus;
+			remoteGlobalIDString = 67EFFF7F262959C40067BCD3;
+			remoteInfo = test;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		67EFFF46262954CA0067BCD3 /* icarus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icarus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		67EFFF49262954CA0067BCD3 /* icarusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icarusApp.swift; sourceTree = "<group>"; };
-		67EFFF4B262954CA0067BCD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		67EFFF4D262954CC0067BCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		67EFFF50262954CC0067BCD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		67EFFF52262954CC0067BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67EFFF57262954CD0067BCD3 /* icarusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = icarusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67EFFF5B262954CD0067BCD3 /* icarusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icarusTests.swift; sourceTree = "<group>"; };
-		67EFFF5D262954CD0067BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67EFFF62262954CD0067BCD3 /* icarusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = icarusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67EFFF66262954CD0067BCD3 /* icarusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icarusUITests.swift; sourceTree = "<group>"; };
-		67EFFF68262954CD0067BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EFFF80262959C40067BCD3 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EFFF83262959C40067BCD3 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
+		67EFFF85262959C40067BCD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67EFFF87262959C60067BCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67EFFF8A262959C60067BCD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67EFFF8C262959C60067BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EFFF91262959C70067BCD3 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EFFF95262959C70067BCD3 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
+		67EFFF97262959C70067BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EFFF9C262959C70067BCD3 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EFFFA0262959C70067BCD3 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
+		67EFFFA2262959C70067BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		67EFFF43262954CA0067BCD3 /* Frameworks */ = {
+		67EFFF7D262959C40067BCD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67EFFF54262954CD0067BCD3 /* Frameworks */ = {
+		67EFFF8E262959C70067BCD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67EFFF5F262954CD0067BCD3 /* Frameworks */ = {
+		67EFFF99262959C70067BCD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +72,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67EFFF3D262954CA0067BCD3 = {
+		67EFFF77262959C40067BCD3 = {
 			isa = PBXGroup;
 			children = (
-				67EFFF48262954CA0067BCD3 /* icarus */,
-				67EFFF5A262954CD0067BCD3 /* icarusTests */,
-				67EFFF65262954CD0067BCD3 /* icarusUITests */,
-				67EFFF47262954CA0067BCD3 /* Products */,
+				67EFFF82262959C40067BCD3 /* test */,
+				67EFFF94262959C70067BCD3 /* testTests */,
+				67EFFF9F262959C70067BCD3 /* testUITests */,
+				67EFFF81262959C40067BCD3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		67EFFF47262954CA0067BCD3 /* Products */ = {
+		67EFFF81262959C40067BCD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67EFFF46262954CA0067BCD3 /* icarus.app */,
-				67EFFF57262954CD0067BCD3 /* icarusTests.xctest */,
-				67EFFF62262954CD0067BCD3 /* icarusUITests.xctest */,
+				67EFFF80262959C40067BCD3 /* test.app */,
+				67EFFF91262959C70067BCD3 /* testTests.xctest */,
+				67EFFF9C262959C70067BCD3 /* testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67EFFF48262954CA0067BCD3 /* icarus */ = {
+		67EFFF82262959C40067BCD3 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				67EFFF49262954CA0067BCD3 /* icarusApp.swift */,
-				67EFFF4B262954CA0067BCD3 /* ContentView.swift */,
-				67EFFF4D262954CC0067BCD3 /* Assets.xcassets */,
-				67EFFF52262954CC0067BCD3 /* Info.plist */,
-				67EFFF4F262954CC0067BCD3 /* Preview Content */,
+				67EFFF83262959C40067BCD3 /* testApp.swift */,
+				67EFFF85262959C40067BCD3 /* ContentView.swift */,
+				67EFFF87262959C60067BCD3 /* Assets.xcassets */,
+				67EFFF8C262959C60067BCD3 /* Info.plist */,
+				67EFFF89262959C60067BCD3 /* Preview Content */,
 			);
-			path = icarus;
+			path = test;
 			sourceTree = "<group>";
 		};
-		67EFFF4F262954CC0067BCD3 /* Preview Content */ = {
+		67EFFF89262959C60067BCD3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				67EFFF50262954CC0067BCD3 /* Preview Assets.xcassets */,
+				67EFFF8A262959C60067BCD3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		67EFFF5A262954CD0067BCD3 /* icarusTests */ = {
+		67EFFF94262959C70067BCD3 /* testTests */ = {
 			isa = PBXGroup;
 			children = (
-				67EFFF5B262954CD0067BCD3 /* icarusTests.swift */,
-				67EFFF5D262954CD0067BCD3 /* Info.plist */,
+				67EFFF95262959C70067BCD3 /* testTests.swift */,
+				67EFFF97262959C70067BCD3 /* Info.plist */,
 			);
-			path = icarusTests;
+			path = testTests;
 			sourceTree = "<group>";
 		};
-		67EFFF65262954CD0067BCD3 /* icarusUITests */ = {
+		67EFFF9F262959C70067BCD3 /* testUITests */ = {
 			isa = PBXGroup;
 			children = (
-				67EFFF66262954CD0067BCD3 /* icarusUITests.swift */,
-				67EFFF68262954CD0067BCD3 /* Info.plist */,
+				67EFFFA0262959C70067BCD3 /* testUITests.swift */,
+				67EFFFA2262959C70067BCD3 /* Info.plist */,
 			);
-			path = icarusUITests;
+			path = testUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67EFFF45262954CA0067BCD3 /* icarus */ = {
+		67EFFF7F262959C40067BCD3 /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67EFFF6B262954CD0067BCD3 /* Build configuration list for PBXNativeTarget "icarus" */;
+			buildConfigurationList = 67EFFFA5262959C70067BCD3 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
-				67EFFF42262954CA0067BCD3 /* Sources */,
-				67EFFF43262954CA0067BCD3 /* Frameworks */,
-				67EFFF44262954CA0067BCD3 /* Resources */,
+				67EFFF7C262959C40067BCD3 /* Sources */,
+				67EFFF7D262959C40067BCD3 /* Frameworks */,
+				67EFFF7E262959C40067BCD3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = icarus;
-			productName = icarus;
-			productReference = 67EFFF46262954CA0067BCD3 /* icarus.app */;
+			name = test;
+			productName = test;
+			productReference = 67EFFF80262959C40067BCD3 /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		67EFFF56262954CD0067BCD3 /* icarusTests */ = {
+		67EFFF90262959C70067BCD3 /* testTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67EFFF6E262954CD0067BCD3 /* Build configuration list for PBXNativeTarget "icarusTests" */;
+			buildConfigurationList = 67EFFFA8262959C70067BCD3 /* Build configuration list for PBXNativeTarget "testTests" */;
 			buildPhases = (
-				67EFFF53262954CD0067BCD3 /* Sources */,
-				67EFFF54262954CD0067BCD3 /* Frameworks */,
-				67EFFF55262954CD0067BCD3 /* Resources */,
+				67EFFF8D262959C70067BCD3 /* Sources */,
+				67EFFF8E262959C70067BCD3 /* Frameworks */,
+				67EFFF8F262959C70067BCD3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67EFFF59262954CD0067BCD3 /* PBXTargetDependency */,
+				67EFFF93262959C70067BCD3 /* PBXTargetDependency */,
 			);
-			name = icarusTests;
-			productName = icarusTests;
-			productReference = 67EFFF57262954CD0067BCD3 /* icarusTests.xctest */;
+			name = testTests;
+			productName = testTests;
+			productReference = 67EFFF91262959C70067BCD3 /* testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		67EFFF61262954CD0067BCD3 /* icarusUITests */ = {
+		67EFFF9B262959C70067BCD3 /* testUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67EFFF71262954CD0067BCD3 /* Build configuration list for PBXNativeTarget "icarusUITests" */;
+			buildConfigurationList = 67EFFFAB262959C70067BCD3 /* Build configuration list for PBXNativeTarget "testUITests" */;
 			buildPhases = (
-				67EFFF5E262954CD0067BCD3 /* Sources */,
-				67EFFF5F262954CD0067BCD3 /* Frameworks */,
-				67EFFF60262954CD0067BCD3 /* Resources */,
+				67EFFF98262959C70067BCD3 /* Sources */,
+				67EFFF99262959C70067BCD3 /* Frameworks */,
+				67EFFF9A262959C70067BCD3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67EFFF64262954CD0067BCD3 /* PBXTargetDependency */,
+				67EFFF9E262959C70067BCD3 /* PBXTargetDependency */,
 			);
-			name = icarusUITests;
-			productName = icarusUITests;
-			productReference = 67EFFF62262954CD0067BCD3 /* icarusUITests.xctest */;
+			name = testUITests;
+			productName = testUITests;
+			productReference = 67EFFF9C262959C70067BCD3 /* testUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		67EFFF3E262954CA0067BCD3 /* Project object */ = {
+		67EFFF78262959C40067BCD3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					67EFFF45262954CA0067BCD3 = {
+					67EFFF7F262959C40067BCD3 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					67EFFF56262954CD0067BCD3 = {
+					67EFFF90262959C70067BCD3 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 67EFFF45262954CA0067BCD3;
+						TestTargetID = 67EFFF7F262959C40067BCD3;
 					};
-					67EFFF61262954CD0067BCD3 = {
+					67EFFF9B262959C70067BCD3 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 67EFFF45262954CA0067BCD3;
+						TestTargetID = 67EFFF7F262959C40067BCD3;
 					};
 				};
 			};
-			buildConfigurationList = 67EFFF41262954CA0067BCD3 /* Build configuration list for PBXProject "icarus" */;
+			buildConfigurationList = 67EFFF7B262959C40067BCD3 /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 67EFFF3D262954CA0067BCD3;
-			productRefGroup = 67EFFF47262954CA0067BCD3 /* Products */;
+			mainGroup = 67EFFF77262959C40067BCD3;
+			productRefGroup = 67EFFF81262959C40067BCD3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67EFFF45262954CA0067BCD3 /* icarus */,
-				67EFFF56262954CD0067BCD3 /* icarusTests */,
-				67EFFF61262954CD0067BCD3 /* icarusUITests */,
+				67EFFF7F262959C40067BCD3 /* test */,
+				67EFFF90262959C70067BCD3 /* testTests */,
+				67EFFF9B262959C70067BCD3 /* testUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67EFFF44262954CA0067BCD3 /* Resources */ = {
+		67EFFF7E262959C40067BCD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67EFFF51262954CC0067BCD3 /* Preview Assets.xcassets in Resources */,
-				67EFFF4E262954CC0067BCD3 /* Assets.xcassets in Resources */,
+				67EFFF8B262959C60067BCD3 /* Preview Assets.xcassets in Resources */,
+				67EFFF88262959C60067BCD3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67EFFF55262954CD0067BCD3 /* Resources */ = {
+		67EFFF8F262959C70067BCD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67EFFF60262954CD0067BCD3 /* Resources */ = {
+		67EFFF9A262959C70067BCD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +255,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67EFFF42262954CA0067BCD3 /* Sources */ = {
+		67EFFF7C262959C40067BCD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67EFFF4C262954CA0067BCD3 /* ContentView.swift in Sources */,
-				67EFFF4A262954CA0067BCD3 /* icarusApp.swift in Sources */,
+				67EFFF86262959C40067BCD3 /* ContentView.swift in Sources */,
+				67EFFF84262959C40067BCD3 /* testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67EFFF53262954CD0067BCD3 /* Sources */ = {
+		67EFFF8D262959C70067BCD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67EFFF5C262954CD0067BCD3 /* icarusTests.swift in Sources */,
+				67EFFF96262959C70067BCD3 /* testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67EFFF5E262954CD0067BCD3 /* Sources */ = {
+		67EFFF98262959C70067BCD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67EFFF67262954CD0067BCD3 /* icarusUITests.swift in Sources */,
+				67EFFFA1262959C70067BCD3 /* testUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		67EFFF59262954CD0067BCD3 /* PBXTargetDependency */ = {
+		67EFFF93262959C70067BCD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67EFFF45262954CA0067BCD3 /* icarus */;
-			targetProxy = 67EFFF58262954CD0067BCD3 /* PBXContainerItemProxy */;
+			target = 67EFFF7F262959C40067BCD3 /* test */;
+			targetProxy = 67EFFF92262959C70067BCD3 /* PBXContainerItemProxy */;
 		};
-		67EFFF64262954CD0067BCD3 /* PBXTargetDependency */ = {
+		67EFFF9E262959C70067BCD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67EFFF45262954CA0067BCD3 /* icarus */;
-			targetProxy = 67EFFF63262954CD0067BCD3 /* PBXContainerItemProxy */;
+			target = 67EFFF7F262959C40067BCD3 /* test */;
+			targetProxy = 67EFFF9D262959C70067BCD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		67EFFF69262954CD0067BCD3 /* Debug */ = {
+		67EFFFA3262959C70067BCD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		67EFFF6A262954CD0067BCD3 /* Release */ = {
+		67EFFFA4262959C70067BCD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,168 +412,168 @@
 			};
 			name = Release;
 		};
-		67EFFF6C262954CD0067BCD3 /* Debug */ = {
+		67EFFFA6262959C70067BCD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"icarus/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = icarus/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.icarus";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		67EFFF6D262954CD0067BCD3 /* Release */ = {
+		67EFFFA7262959C70067BCD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"icarus/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = icarus/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.icarus";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		67EFFF6F262954CD0067BCD3 /* Debug */ = {
+		67EFFFA9262959C70067BCD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = icarusTests/Info.plist;
+				INFOPLIST_FILE = testTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.icarusTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/icarus.app/icarus";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Debug;
 		};
-		67EFFF70262954CD0067BCD3 /* Release */ = {
+		67EFFFAA262959C70067BCD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = icarusTests/Info.plist;
+				INFOPLIST_FILE = testTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.icarusTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/icarus.app/icarus";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Release;
 		};
-		67EFFF72262954CD0067BCD3 /* Debug */ = {
+		67EFFFAC262959C70067BCD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = icarusUITests/Info.plist;
+				INFOPLIST_FILE = testUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.icarusUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = icarus;
+				TEST_TARGET_NAME = test;
 			};
 			name = Debug;
 		};
-		67EFFF73262954CD0067BCD3 /* Release */ = {
+		67EFFFAD262959C70067BCD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = icarusUITests/Info.plist;
+				INFOPLIST_FILE = testUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.icarusUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = icarus;
+				TEST_TARGET_NAME = test;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67EFFF41262954CA0067BCD3 /* Build configuration list for PBXProject "icarus" */ = {
+		67EFFF7B262959C40067BCD3 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67EFFF69262954CD0067BCD3 /* Debug */,
-				67EFFF6A262954CD0067BCD3 /* Release */,
+				67EFFFA3262959C70067BCD3 /* Debug */,
+				67EFFFA4262959C70067BCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67EFFF6B262954CD0067BCD3 /* Build configuration list for PBXNativeTarget "icarus" */ = {
+		67EFFFA5262959C70067BCD3 /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67EFFF6C262954CD0067BCD3 /* Debug */,
-				67EFFF6D262954CD0067BCD3 /* Release */,
+				67EFFFA6262959C70067BCD3 /* Debug */,
+				67EFFFA7262959C70067BCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67EFFF6E262954CD0067BCD3 /* Build configuration list for PBXNativeTarget "icarusTests" */ = {
+		67EFFFA8262959C70067BCD3 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67EFFF6F262954CD0067BCD3 /* Debug */,
-				67EFFF70262954CD0067BCD3 /* Release */,
+				67EFFFA9262959C70067BCD3 /* Debug */,
+				67EFFFAA262959C70067BCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67EFFF71262954CD0067BCD3 /* Build configuration list for PBXNativeTarget "icarusUITests" */ = {
+		67EFFFAB262959C70067BCD3 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67EFFF72262954CD0067BCD3 /* Debug */,
-				67EFFF73262954CD0067BCD3 /* Release */,
+				67EFFFAC262959C70067BCD3 /* Debug */,
+				67EFFFAD262959C70067BCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 67EFFF3E262954CA0067BCD3 /* Project object */;
+	rootObject = 67EFFF78262959C40067BCD3 /* Project object */;
 }

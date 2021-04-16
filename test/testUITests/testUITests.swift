@@ -1,13 +1,13 @@
 //
-//  icarusUITests.swift
-//  icarusUITests
+//  testUITests.swift
+//  testUITests
 //
 //  Created by tianhao on 2021/4/16.
 //
 
 import XCTest
 
-class icarusUITests: XCTestCase {
+class testUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
