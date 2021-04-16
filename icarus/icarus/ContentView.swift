@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Icarus
+//  icarus
 //
-//  Created by tianhao on 2021/4/15.
+//  Created by tianhao on 2021/4/16.
 //
 
 import SwiftUI

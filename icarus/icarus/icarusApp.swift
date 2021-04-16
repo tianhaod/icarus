@@ -1,14 +1,14 @@
 //
-//  IcarusApp.swift
-//  Icarus
+//  icarusApp.swift
+//  icarus
 //
-//  Created by tianhao on 2021/4/15.
+//  Created by tianhao on 2021/4/16.
 //
 
 import SwiftUI
 
 @main
-struct IcarusApp: App {
+struct icarusApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

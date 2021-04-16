@@ -1,1 +1,0 @@
-# icarus Junior Design Project
